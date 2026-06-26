@@ -2,7 +2,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://saasclinicos-backend-8t1dvqumg-dinesh-sass-clinicos-projects.vercel.app/api',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
